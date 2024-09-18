@@ -1,3 +1,7 @@
+# Projet de Developpement à base de composants et de services-web
+
+Le présent projet est réalisé dans le cadre du développement d'une application RESTful utilisant Spring Boot pour exposer des données extraites et transformées par Talend Open Studio à partir d'une base de données MySQL. Le monitoring des métriques est assuré via Prometheus.
+Le choix du groupe s’est porté sur le thème `Gestion de la clientèle pour une entreprise informatique`.
 
 # Installation et configuration des prerequis
 
@@ -126,3 +130,19 @@ Puis lancez l'application avec la commande ci-dessous
 ```sh
 java -jar gestionAchatsBackEnd-0.0.1-SNAPSHOT.jar
 ```
+
+## Execution du Prometheus
+Placer vous dans le repertoire d'installationn de prometheus vu précédemment
+
+`... /prometheus-2.54.0.windows-amd64`
+
+Ouvrez l'invite de commande à cet emplacement et executez la commande ci-dessous
+
+```sh
+prometheus.exe --config.file=prometheus.yml
+```
+
+## Usages et tests
+
+Pour les usages et les tests de ce projet ainsi que de talend veuillez vous referer au rapport `Rapport groupe2 - VF.pdf` disponible à la racine du dépôt
+
