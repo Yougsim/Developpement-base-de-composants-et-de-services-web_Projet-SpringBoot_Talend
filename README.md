@@ -1,6 +1,9 @@
 
 # Installation et configuration des prerequis
 
+* [ ] Java Development Kit version 11 ou supérieur.
+* [ ] Prometheus.
+* [ ] MySQL.
 
 ## Java Development Kit 
 
